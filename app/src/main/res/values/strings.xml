@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">30_days_training</string>
+    <string name="title">Trainings!</string>
     <string name="day">День %d</string>
     <string name="about">Техника выполнения</string>
 

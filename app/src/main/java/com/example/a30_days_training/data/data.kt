@@ -4,8 +4,8 @@ import com.example.a30_days_training.model.Training
 import com.example.a30_days_training.R
 
 val trainings = listOf(
-    Training(0, R.string.barbell_squat, R.string.barbell_squat_desc, R.drawable.barbell_squat),
-    Training(1, R.string.barbell_bench, R.string.barbell_bench_desc, R.drawable.barbell_bench),
+    Training(0, R.string.barbell_bench, R.string.barbell_bench_desc, R.drawable.barbell_bench),
+    Training(1, R.string.barbell_squat, R.string.barbell_squat_desc, R.drawable.barbell_squat),
     Training(2, R.string.barbell_curl, R.string.barbell_curl_desc, R.drawable.barbell_curl),
     Training(3, R.string.butterfly, R.string.butterfly_desc, R.drawable.butterfly),
     Training(4, R.string.calf_raises, R.string.calf_raises_desc, R.drawable.calf_raises),
