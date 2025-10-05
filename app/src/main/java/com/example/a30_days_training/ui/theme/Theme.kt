@@ -3,6 +3,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
+import com.example.a30_days_training.ui.theme.Shapes
 import com.example.ui.theme.AppTypography
 
 private val darkScheme = darkColorScheme(
@@ -49,11 +50,12 @@ fun TrainingTheme(
     dynamicColor: Boolean = true,
     content: @Composable() () -> Unit
 ) {
-  val colorScheme = darkScheme
-  MaterialTheme(
-    colorScheme = colorScheme,
-    typography = AppTypography,
-    content = content
-  )
+    val colorScheme = darkScheme
+    MaterialTheme(
+        colorScheme = colorScheme,
+        shapes = Shapes,
+        typography = AppTypography,
+        content = content,
+    )
 }
 
